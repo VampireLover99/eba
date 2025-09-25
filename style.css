@@ -1,20 +1,18 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
+  padding: 0;
 }
 
 .caixa {
-  background: white;
+  background: rgb(236, 184, 184);
+  border: 2px solid #c75a5a; /* linha em volta */
+  border-radius: 15px; /* cantos arredondados */
   padding: 20px 30px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 20px auto; /* espaço do topo */
+  width: fit-content; /* largura ajusta ao conteúdo */
   text-align: center;
-  max-width: 400px;
-  line-height: 1.6;
   font-size: 18px;
+  line-height: 1.6;
 }
